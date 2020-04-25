@@ -1,7 +1,5 @@
 var http = require('http');
 const url = require('url');
-var last = 'http://localhost:3080/last';
-var q = url.parse(last, true);
   const server = http.createServer(function (req, res) {
     console.log("path", req.url);
     switch(req.url) {
