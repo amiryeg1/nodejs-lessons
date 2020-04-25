@@ -1,0 +1,7 @@
+{
+  "name": "video-streamer",
+  "version": "1.0.0",
+  "description": "an app that streams some videos using node.js",
+  "main": "app.js",
+  "author": "amir yeganeh",
+}
