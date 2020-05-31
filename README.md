@@ -8,4 +8,4 @@ lesson one => a simple app that creates an http server and respond a text.
 
 lesson three => path to create a server and stream some videos on html web page.
 
-lesson four =># testing an api using "Super-agent".
+lesson four => testing an api using "Super-agent".
