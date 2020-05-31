@@ -1,6 +1,5 @@
 # node.js-lessons
-
-these are the tasks that are going to lead me into becoming a back-end developer
+this repository is going to be filled with several node.js tasks that can lead you into becoming a back-end developer.
 
 i post different node.js tasks here
 ________________  ____
