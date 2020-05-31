@@ -14,14 +14,14 @@ const server = http.createServer(function (req, res) {
         var rs = fs.ReadStream(__dirname + "/index.html","utf8");
         rs.pipe(res);
         break;
-      case "/vid1":
-       readvideo("vids/vid 1.mp4")
+      case "/video1":
+       readvideo("vids/video 1.mp4")
         break;
-      case "/vid2":
-          readvideo("vids/vid 2.mp4")
+      case "/video2":
+          readvideo("vids/video 2.mp4")
         break;
-      case "/vid3":
-          readvideo("vids/vid 3.mp4")
+      case "/video3":
+          readvideo("vids/video 3.mp4")
         break;
       default:
         res.end("Not Found")
