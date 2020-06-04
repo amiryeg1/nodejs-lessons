@@ -1,0 +1,22 @@
+{
+  "name": "l5-express-framework",
+  "version": "1.0.0",
+  "description": "handling html forms using express framework",
+  "main": "app.js",
+  "dependencies": {
+    "express":"^4.17.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiryeg1/nodejs-lessons.git"
+  },
+  "author": "Amir Yeganeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amiryeg1/nodejs-lessons/issues"
+  },
+  "homepage": "https://github.com/amiryeg1/nodejs-lessons#readme"
+}
