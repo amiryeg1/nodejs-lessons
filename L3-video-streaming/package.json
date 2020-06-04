@@ -3,5 +3,8 @@
   "version": "1.5.0",
   "description": "an app that streams some videos using node.js",
   "main": "app.js",
-  "author": "amir yeganeh"
+  "author": "amir yeganeh",
+  "scripts": {
+"start" : "node app.js"
+  }
 }
