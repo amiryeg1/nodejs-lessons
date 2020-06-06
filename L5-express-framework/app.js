@@ -1,29 +1,42 @@
 const express = require("express");
 const app = express();
 app.use(express.urlencoded({ extended: false }));
+const names = {};
+const id = 0;
 app.get("/", (req, res) => {
-    res.writeHead(404, { "Content-Type": "text/plain" });
-    res.write("404 Not Found\ntry\n localhost:3000/hello\n localhost:3000/name");
-    res.end();
+    res.redirect(301, "/register")
 })
 app.get("/hello", (req, res) => {
-    res.write("Hello Express");
-    res.end();
+    res.send("Hello Express");
 });
-app.get("/name", function (req, res) {
+app.get("/register", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
-app.post('/name', (req, res) => {
+app.post('/names', (req, res) => {
+    const username = req.body.name;
+    console.log({
+        name: username
+    });
+    names[`${id+1}`] = username;
+    console.log(names)
+    res.end();
+});
+app.get('/names', (req, res) => {
+    
+    res.json(names);
+});
+app.get('/names/:id', (req, res) => {
     const username = req.body.name;
     console.log({
         name: username
     });
     res.json({
-        name: username
-    });
-    res.end();
+        name: names[req.params.id]
+    })
+    
 });
 
-app.listen(3000, () => {
-    console.log(`server running on port 3000 successfully`);
-});
+var server = app.listen(3000, () => {
+    var port = server.address().port
+    console.log(`server running on port ${port} successfully`)
+})
