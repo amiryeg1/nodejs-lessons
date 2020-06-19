@@ -1,13 +1,23 @@
 {
   "name": "l5-express-framework",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "handling html forms using express framework",
   "main": "app.js",
   "dependencies": {
-    "express":"^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
