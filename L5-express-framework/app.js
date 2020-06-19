@@ -1,42 +1,48 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+
 const app = express();
-app.use(express.urlencoded({ extended: false }));
-const names = {};
-const id = 0;
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+var names = {};
+var id = 0;
+
 app.get("/", (req, res) => {
-    res.redirect(301, "/register")
-})
+  res.redirect(301, "/register");
+});
 app.get("/hello", (req, res) => {
-    res.send("Hello Express");
+  res.send("Hello Express");
 });
 app.get("/register", function (req, res) {
-    res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
-app.post('/names', (req, res) => {
-    const username = req.body.name;
-    console.log({
-        name: username
-    });
-    names[`${id+1}`] = username;
-    console.log(names)
-    res.end();
+app.post("/names", (req, res) => {
+  const name = req.body.name;
+  console.log({
+    name: name,
+  });
+  id = id + 1;
+  names[`${id}`] = name;
+  console.log(names);
+  res.send({ success: true });
 });
-app.get('/names', (req, res) => {
-    
-    res.json(names);
+app.get("/names", (req, res) => {
+  res.json(names);
 });
-app.get('/names/:id', (req, res) => {
-    const username = req.body.name;
-    console.log({
-        name: username
-    });
-    res.json({
-        name: names[req.params.id]
-    })
+
+app.get("/names/:id", (req, res) => {
+  const name = req.body.name;
+  console.log({
+    name: name,
+  });
+  res.json({
+    name: names[req.params.id],
+  });
+});
+app.delete("/names/:id", (req, res) => {
+//not done yet
     
 });
 
-var server = app.listen(3000, () => {
-    var port = server.address().port
-    console.log(`server running on port ${port} successfully`)
-})
+module.exports = app;
