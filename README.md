@@ -15,18 +15,18 @@ stay tuned for updates.
 ## Http Server
 a very simple example on how to create a server using HTTP built-in module that respond a string to the requested path.
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L1-simple-http-server/README.md) to see the example
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L1-simple-http-server/README.md) to read more
 
 ## Video Streaming
  this project guides you on how to stream some videos on the server using File-System module.
  
- click here to see how it works!
+ click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L3-video-streaming/README.md) to read more
  
 ## Api Testing 
 a server is created which sends a data to a path . then we use super-agent to test the request.
 
-click here for more 
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L4-api-testing/README.md) to read more 
 ## Express-Framework
 tutorial on how to create a server using express framework and send http requests(GET,POST,DELETE) .
 
-click here for detailed explanation
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L5-express-framework/README.md) to read more
