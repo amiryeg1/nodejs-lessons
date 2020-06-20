@@ -15,7 +15,7 @@ stay tuned for updates.
 ## Http Server
 a very simple example on how to create a server using HTTP built-in module that respond a string to the requested path.
 
-click here to see the example
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L1-simple-http-server/README.md) to see the example
 
 ## Video Streaming
  this project guides you on how to stream some videos on the server using File-System module.
