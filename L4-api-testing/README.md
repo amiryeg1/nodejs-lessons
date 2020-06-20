@@ -2,8 +2,8 @@
 # Api Testing
 in this task we use super-agent to send a data to the server and we check if it works or not.
 
-- [click here to see app code]()
-- [click here to see test code]()
+- [click here to see app code](https://github.com/amiryeg1/nodejs-lessons/blob/master/L4-api-testing/app.js)
+- [click here to see test code](https://github.com/amiryeg1/nodejs-lessons/blob/master/L4-api-testing/test.js)
 
 ### How It Works?
 open terminal and run
