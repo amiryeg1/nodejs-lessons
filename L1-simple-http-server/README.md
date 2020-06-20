@@ -35,8 +35,8 @@ const name = {
 const HelloF = `Hello ${name.FirstName}`;
 const HelloL = `Hello ${name.LastName}`;
 ```
-### Usage
-open terminal and write
+### How It Works ?
+open terminal and run
 ```
 npm start
 ```
