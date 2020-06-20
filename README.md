@@ -13,7 +13,7 @@ stay tuned for updates.
    - lesson five => [express-framework](https://github.com/amiryeg1/nodejs-lessons/tree/master/L5-express-framework)
 
 ## Http Server
-a very simple example of how to create a server using HTTP built-in module that respond a string to the requested path.
+a very simple example on how to create a server using HTTP built-in module that respond a string to the requested path.
 
 click here to see the example
 
