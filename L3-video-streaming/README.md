@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-## Video Streaming
+# Video Streaming
 
 using node.js server we are going to show some videos on our web application.
 
