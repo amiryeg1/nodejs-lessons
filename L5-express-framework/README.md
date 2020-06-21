@@ -22,7 +22,9 @@ once you click submit , you will be redirected to www.localhost:3000/names which
 
 reload the page and you can see all the names you have submitted . 
 
-## Test
+## Test Cases
+this task supports jest as test framework
+
 open terminal and run
 ```
 npm test
