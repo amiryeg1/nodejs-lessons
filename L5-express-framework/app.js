@@ -41,8 +41,13 @@ app.get("/names/:id", (req, res) => {
   });
 });
 app.delete("/names/:id", (req, res) => {
-//not done yet
-    
+  const name = names.find((c) => c.id === (req.params.id));
+  if (!name)
+    res.status(404).send("the name with the given ID was not foud");
+
+  const index = names.indexOF(name);
+  names.spice(index, 1);
+  res.send(name)
 });
 
 module.exports = app;
