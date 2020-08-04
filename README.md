@@ -12,6 +12,7 @@ stay tuned for updates.
    - lesson four  => [api-testing](https://github.com/amiryeg1/nodejs-lessons/tree/master/L4-api-testing)
    - lesson five  => [express-framework](https://github.com/amiryeg1/nodejs-lessons/tree/master/L5-express-framework)
    - lesson six   => [user-authentication](https://github.com/amiryeg1/nodejs-lessons/tree/master/L6-user-authentication)
+   - lesson seven => [mongodb-database](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database)
 
 ## Http Server
 a very simple example on how to create a server using HTTP built-in module that respond a string to the requested path.
@@ -33,6 +34,10 @@ tutorial on how to create a server using express framework and send http request
 click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L5-express-framework/README.md) to read more
 
 ## User Authentication
-this example app authenticate user to the server (without database) .
+this example app shows how to authenticate user to the server (without database) .
 
 click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L6-user-authentication/README.md) to read more
+
+## Mongodb Database
+in this section we will implement mongodb database to our app from lesson six . 
+click [here](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database/README.md) to read more 
