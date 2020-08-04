@@ -31,7 +31,7 @@ now go to www.localhost:3000/login and enter the username and password you signe
 if the password is correct , you will get a respond which says `login success`
 else you will end up with the message `invalid name or password`
 
-*NOTE:this project is developed without using any database . in the next lesson we're going to rebulid the app using mongodb*
+*NOTE:this project is developed without using any database . in the [next lesson](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database) we're going to rebulid the app using mongodb*
 # Dependencies 
 - express
   - read express article [here](https://www.npmjs.com/package/express)
