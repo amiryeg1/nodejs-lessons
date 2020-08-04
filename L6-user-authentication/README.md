@@ -30,6 +30,8 @@ you should get a message which says `you signed up successfully`
 now go to www.localhost:3000/login and enter the username and password you signed up with.
 if the password is correct , you will get a respond which says `login success`
 else you will end up with the message `invalid name or password`
+
+*NOTE:this project is developed without using any database . in the next lesson we're going to rebulid the app using mongodb*
 # Dependencies 
 - express
   - read express article [here](https://www.npmjs.com/package/express)
