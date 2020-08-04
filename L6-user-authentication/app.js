@@ -16,7 +16,7 @@ app.post("/signup", async (req, res) => {
   let username = await req.body.name;
   var password = req.body.password;
   const salt = await bcrypt.genSalt(10);
-  hashedPassword = await bcrypt.hash(password, salt);
+    hashedPassword = await bcrypt.hash(password, salt);
   id = id + 1;
   names[`${id}`] = { username, hashedPassword };
 
