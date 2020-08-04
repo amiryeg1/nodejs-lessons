@@ -23,7 +23,7 @@ open your browser and go to
 
 www.localhost:3000 or www.localhost:3000/signup
 
-enter your username and password , the click `submit`
+enter your username and password , then click `sign up`
 
 you should get a message which says `you signed up successfully`
 
