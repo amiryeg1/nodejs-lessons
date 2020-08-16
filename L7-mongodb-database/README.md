@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 # mongodb database
 as you saw in the [previous lesson](https://github.com/amiryeg1/nodejs-lessons/tree/master/L6-user-authentication) , we simiulated an authenticating system but we stored the data in arrays.
 in this lesson we use mongodb and mongoose to store our data inside database .
