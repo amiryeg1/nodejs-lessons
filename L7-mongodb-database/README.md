@@ -31,6 +31,8 @@ now all we need to do is to start the app
 ```
 npm start
 ```
+![svg file](https://github.com/amiryeg1/nodejs-lessons/blob/master/L7-mongodb-database/start.svg)
+
 open your browser and go to
 
 www.localhost:3000 or www.localhost:3000/home
