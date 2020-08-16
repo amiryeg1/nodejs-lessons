@@ -19,7 +19,15 @@ It includes built-in type casting, validation, query building, business logic ho
 - [app code](https://github.com/amiryeg1/nodejs-lessons/blob/master/L7-mongodb-database/app.js)
 ---
 ## How It Works ?
-open terminal and run
+first we need set a value for our environment variable `mongodb_exercise_jwtPrivateKey` as the token password
+
+open terminal and run the command
+```
+export mongodb_exercise_jwtPrivateKey=secretKey
+```
+in the code above i used `secretKey` as my password . (you can set it to anything)
+
+now all we need to do is to start the app
 ```
 npm start
 ```
