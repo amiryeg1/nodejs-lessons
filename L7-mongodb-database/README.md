@@ -50,9 +50,13 @@ request to www.localhost:3000/names  for seeing the list of users registered
 # Dependencies 
 - express
   - read express article [here](https://www.npmjs.com/package/express)
+- mongoose
+  - read mongoose article [here](https://www.npmjs.com/package/mongoose)
 - body-parser
   - read body-parser article [here](https://www.npmjs.com/package/body-parser)
 - bcrypt
   - read bcrypt article [here](https://www.npmjs.com/package/bcrypt)
-- mongoose
-  - read mongoose article [here](https://www.npmjs.com/package/mongoose)
+- JSON-web-token
+  - read JSON-web-token article [here](https://www.npmjs.com/package/jsonwebtoken)
+- config
+  - read config article [here](https://www.npmjs.com/package/config)
