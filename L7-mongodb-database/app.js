@@ -2,28 +2,19 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const mongoose = require("mongoose");
-const jwt = require("jsonwebtoken")
-const config = require("config")
+const jwt = require("jsonwebtoken");
+const config = require("config");
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
-mongoose
-  .connect("mongodb://localhost/authentication", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-  })
-  .then(() => console.log("connected to mongodb..."))
-  .catch((err) => console.error("could not connect to mongodb...", err));
 
 const userSchema = new mongoose.Schema({
   Username: { type: String, unique: true, required: true },
   Password: { type: String, required: true },
   FullName: { type: String, required: true },
   Age: { type: Number, required: true },
-  createdAt: { type: Date, default: Date.now() }
+  createdAt: { type: Date, default: Date.now() },
 });
 
 const User = mongoose.model("User", userSchema);
@@ -33,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-  res.sendFile(__dirname + "/home.html");
+  res.sendFile(__dirname + "/views/home.html");
 });
 
 app.post("/signup", async (req, res) => {
@@ -52,19 +43,22 @@ app.post("/signup", async (req, res) => {
   });
   const result = await user.save();
   console.log(result);
-  let token = jwt.sign({
-    _id:user._id,
-    username:user.Username
-  },config.get("jwtPrivateKey"))
-  res.header('x-auth-token',token).send("you signed up successfully");
+  let token = jwt.sign(
+    {
+      _id: user._id,
+      username: user.Username,
+    },
+    config.get("jwtPrivateKey")
+  );
+  res.header("x-auth-token", token).send("you signed up successfully");
 });
 
 app.get("/signup", function (req, res) {
-  res.sendFile(__dirname + "/sign-up.html");
+  res.sendFile(__dirname + "/views/sign-up.html");
 });
 
 app.get("/login", (req, res) => {
-  res.sendFile(__dirname + "/login.html");
+  res.sendFile(__dirname + "/views/login.html");
 });
 
 app.post("/login", async (req, res) => {
@@ -76,11 +70,14 @@ app.post("/login", async (req, res) => {
   if (!validPassword) {
     res.send("invalid name or password");
   } else {
-   let token = jwt.sign({
-      _id:user._id,
-      username:user.Username
-    },config.get("jwtPrivateKey"))
-    console.log(token)
+    let token = jwt.sign(
+      {
+        _id: user._id,
+        username: user.Username,
+      },
+      config.get("jwtPrivateKey")
+    );
+    console.log(token);
     res.send(`${user.FullName} successfully logged in`);
   }
 });
