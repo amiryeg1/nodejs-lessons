@@ -3,6 +3,41 @@ const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const app = express();
 
+const AuthMiddleware = (req, res, next) => {
+  token = req.header('Authorization')
+  res.send()
+  if(authenticated) {
+    req.auth = tokenData = {userID: 2231};
+    next();
+  } else {
+    return res.send('not Authenticated.')
+  }
+  
+};
+
+const encode = (inp, algorithm = "aes-256-ctr") => {
+  let jm = JSON.stringify(inp);
+  let key = Buffer.from("d0bc8fd4aae4548f8bee4a9eb714a3133e4e46a6f8d6ba220f432050fc4fef06", "hex");
+  let iv = Buffer.from("b66a422ae4006d4c32ed04717479d00d", "hex");
+  let cipher = bcrypto.createCipheriv(algorithm, key, iv);
+  let crypted = cipher.update(jm, 'utf8', 'hex');
+  crypted += cipher.final('hex');
+  return crypted;
+}
+
+const decode = (inp, secret, algorithm = "aes-256-ctr") => {
+  var decipher = bcrypto.createDecipher(algorithm, secret);
+  var dec = decipher.update(inp, 'hex', 'utf8');
+  dec += decipher.final('utf8');
+  let decobj = {};
+  try {
+      decobj = JSON.parse(dec);
+  }
+  catch (err) {
+  }
+  return decobj;
+}
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 var names = {};
@@ -47,11 +82,12 @@ app.post("/login", async (req, res) => {
   }
 });
 
-app.get("/names", (req, res) => {
+app.get("/names", AuthMiddleware, (req, res) => {
   res.json(names);
 });
 
-app.get("/names/:id", (req, res) => {
+app.get("/names/:id", AuthMiddlewar, (req, res) => {
+  userId = req.auth.userId;
   const username = req.body.name;
   console.log({
     name: username,
