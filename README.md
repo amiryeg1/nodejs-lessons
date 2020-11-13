@@ -2,6 +2,7 @@
 ![last commit](https://img.shields.io/github/last-commit/amiryeg1/nodejs-lessons?style=for-the-badge)
 ![total lines](https://img.shields.io/tokei/lines/github/amiryeg1/nodejs-lessons?color=blueviolet&style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/amiryeg1/nodejs-lessons?color=lightgrey&style=for-the-badge)
+![top lang](https://img.shields.io/github/languages/top/amiryeg1/nodejs-lessons?color=red&style=for-the-badge)
 # Node.Js Sample Projects :collision:
 
 ## introduction
@@ -11,13 +12,13 @@
 stay tuned for updates.
 
 ## Table Of Contents
-###   - lesson one   => [simple-http-server](https://github.com/amiryeg1/nodejs-lessons/tree/master/L1-simple-http-server)
-###   - lesson three => [video-streaming](https://github.com/amiryeg1/nodejs-lessons/tree/master/L3-video-streaming)
-###   - lesson four  => [api-testing](https://github.com/amiryeg1/nodejs-lessons/tree/master/L4-api-testing)
-###   - lesson five  => [express-framework](https://github.com/amiryeg1/nodejs-lessons/tree/master/L5-express-framework)
-###   - lesson six   => [user-authentication](https://github.com/amiryeg1/nodejs-lessons/tree/master/L6-user-authentication)
-###   - lesson seven => [mongodb-database](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database)
-###   - lesson eight => [Oauth-emailSender](https://github.com/amiryeg1/nodejs-lessons/tree/master/L8-OAuth-EmailSender)
+###    lesson one   => [simple-http-server](https://github.com/amiryeg1/nodejs-lessons/tree/master/L1-simple-http-server)
+###    lesson three => [video-streaming](https://github.com/amiryeg1/nodejs-lessons/tree/master/L3-video-streaming)
+###    lesson four  => [api-testing](https://github.com/amiryeg1/nodejs-lessons/tree/master/L4-api-testing)
+###    lesson five  => [express-framework](https://github.com/amiryeg1/nodejs-lessons/tree/master/L5-express-framework)
+###    lesson six   => [user-authentication](https://github.com/amiryeg1/nodejs-lessons/tree/master/L6-user-authentication)
+###    lesson seven => [mongodb-database](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database)
+###    lesson eight => [Oauth-emailSender](https://github.com/amiryeg1/nodejs-lessons/tree/master/L8-OAuth-EmailSender)
 
 ## ***Http Server***
 a very simple example of how to create a server using HTTP built-in module that responds a string to the requested path.
