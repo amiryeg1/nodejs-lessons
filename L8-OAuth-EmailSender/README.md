@@ -32,7 +32,7 @@ CLIENT_ID=your google client ID (as String)
 CLIENT_SECRET=your google client secret (as String)
 
 ```
-after variable declaration we need to get our google `client ID` and `client secret` [from here](https://console.cloud.google.com/) and add them to .env file
+after variable declaration we need to get our google `client ID` and `client secret` [from here](https://console.developers.google.com) and add them to .env file
 
 and that's it! our authentication app is ready to work
 
@@ -58,3 +58,15 @@ congratulations
 
 after registering to the server, you will be redirected to your profile page
 ![profile](https://github.com/amiryeg1/nodejs-lessons/blob/master/L8-OAuth-EmailSender/views/readmeFiles/profile.png)
+
+## important dependencies 
+- express
+  - read express article [here](https://www.npmjs.com/package/express)
+- mongoose
+  - read mongoose article [here](https://www.npmjs.com/package/mongoose)
+- passport
+  - read passport article [here](https://www.npmjs.com/package/passport)
+- nodemailer
+  - read nodemailer article [here](https://www.npmjs.com/package/nodemailer)
+- passport-google-oauth
+  - read passport-google-oauth article [here](https://www.npmjs.com/package/passport-google-oauth)
