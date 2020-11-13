@@ -10,6 +10,7 @@ const session = require("express-session");
 const dotenv = require("dotenv");
 dotenv.config();
 
+mongoose.Promise = global.Promise;
 let { DB_HOST, DB_NAME } = process.env;
 mongoose
   .connect(`mongodb://${DB_HOST}/${DB_NAME}`, {
