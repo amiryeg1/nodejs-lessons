@@ -1,7 +1,7 @@
 ![License](https://img.shields.io/github/license/amiryeg1/nodejs-lessons?color=informational&style=for-the-badge)
-![code size](https://img.shields.io/github/languages/code-size/amiryeg1/nodejs-lessons?color=orange&style=for-the-badge)
 ![last commit](https://img.shields.io/github/last-commit/amiryeg1/nodejs-lessons?style=for-the-badge)
 ![total lines](https://img.shields.io/tokei/lines/github/amiryeg1/nodejs-lessons?color=blueviolet&style=for-the-badge)
+![repo size](https://img.shields.io/github/repo-size/amiryeg1/nodejs-lessons?color=lightgrey&style=for-the-badge)
 # Node.Js Sample Projects :collision:
 
 ## introduction
