@@ -53,3 +53,6 @@ click [here](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-d
 a full authentication system that uses both local and OAuth method for registering user. it also sends an email to the newly registered user 
 
 click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L8-OAuth-EmailSender/README.md) to read more
+
+# license
+***Nodejs-lessons is free software distributed under the terms of the MIT license.***
