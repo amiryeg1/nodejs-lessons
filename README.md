@@ -3,6 +3,7 @@
 ![total lines](https://img.shields.io/tokei/lines/github/amiryeg1/nodejs-lessons?color=blueviolet&style=for-the-badge)
 ![repo size](https://img.shields.io/github/repo-size/amiryeg1/nodejs-lessons?color=lightgrey&style=for-the-badge)
 ![top lang](https://img.shields.io/github/languages/top/amiryeg1/nodejs-lessons?color=red&style=for-the-badge)
+![nodejs svg](https://github.com/amiryeg1/nodejs-lessons/blob/master/nodejs.jpg)
 # Node.Js Sample Projects :collision:
 
 ## introduction
