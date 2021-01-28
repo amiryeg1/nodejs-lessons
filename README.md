@@ -24,36 +24,36 @@ stay tuned for updates.
 ## ***Http Server***
 a very simple example of how to create a server using HTTP built-in module that responds a string to the requested path.
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L1-simple-http-server/README.md) to read more
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L1-simple-http-server/README.md) to read more...
 
 ## ***Video Streaming***
  this project guides you on how to stream some videos on the server using the File-System module.
  
- click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L3-video-streaming/README.md) to read more
+ click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L3-video-streaming/README.md) to read more...
  
 ## ***Api Testing*** 
 a server is created which sends data to a path. then we use super-agent to test the request.
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L4-api-testing/README.md) to read more 
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L4-api-testing/README.md) to read more...
 ## ***Express Framework***
 tutorial on how to create a server using the express framework and send HTTP requests(GET, POST, DELETE).
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L5-express-framework/README.md) to read more
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L5-express-framework/README.md) to read more...
 
 ## ***User Authentication***
 this example app shows how to authenticate a user to the server (without a database).
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L6-user-authentication/README.md) to read more
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L6-user-authentication/README.md) to read more...
 
 ## ***Mongodb Database***
 in this section, we will implement the mongodb database to our app from lesson six. 
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database/README.md) to read more 
+click [here](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database/README.md) to read more...
 
 ## ***OAuth EmailSender***
 a full authentication system that uses both local and OAuth method for registering user. it also sends an email to the newly registered user 
 
-click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L8-OAuth-EmailSender/README.md) to read more
+click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L8-OAuth-EmailSender/README.md) to read more...
 
 # license
-***Nodejs-lessons is free software distributed under the terms of the MIT license.***
+***Nodejs-lessons is a free software distributed under the terms of the MIT license.***
