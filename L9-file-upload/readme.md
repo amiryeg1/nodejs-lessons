@@ -1,3 +1,7 @@
+![MIT](https://img.shields.io/badge/license-MIT-blue)
+![size](https://img.shields.io/badge/size-4.1mb-brightgreen)
+![files](https://img.shields.io/badge/files-19-yellow)
+
 # File Upload
 in this lesson, we will implement an uploading system that supports three environments to upload your files
 
