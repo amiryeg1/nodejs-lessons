@@ -47,7 +47,7 @@ after uploading your files, you can get a full detail of them by clicking on the
 
 minio uploaded files can be downloaded directly from *l9-file-upload* [bucket](https://play.minio.io:9000/minio/l9-file-upload/)
 
-or alternatively, by inputting the file's name in the URL, as an example:
+or alternatively, by inputting the file's name in the URL, as example:
 
 ![download-example]()
 
