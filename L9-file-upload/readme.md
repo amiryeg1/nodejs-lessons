@@ -19,7 +19,7 @@ going to `localhost:3000` will bring us to the home page
 
 ![home-page](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/home-page.png)
 
-** let's take a tour and get to know our app's functionalities step by step**
+**let's take a tour and get to know our app's functionalities step by step**
 ### Local Storage
 you can upload your files to your disk storage using this field.
 
