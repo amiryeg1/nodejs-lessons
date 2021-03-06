@@ -35,6 +35,8 @@ we can retrieve uploaded files by clicking on the `list of database uploaded fil
 
 ![database-files]()
 
+
+
 ### Cloud Storage
 finally, for this section, we use [minio](https://min.io/) which is cloud storage for storing our files.
 
