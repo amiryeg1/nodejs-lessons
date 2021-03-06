@@ -51,6 +51,8 @@ minio uploaded files can be downloaded directly from *l9-file-upload* [bucket](h
 
 or alternatively, by inputting the file's name in the URL, as example:
 
-![download-example](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/download-example.png)
+<p align="center">
+  <img src="https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/download-example.png" alt="download-example" />
+</p>
 
 > downloaded files are stored in ___*/downloads*___ directory in the root folder.
