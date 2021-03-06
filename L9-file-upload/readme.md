@@ -33,7 +33,7 @@ we use [mongodb](https://www.mongodb.com/) as our database to store photos.
 
 we can retrieve uploaded files by clicking on the `list of database uploaded files` button 
 
-![database-files]()
+![database-files](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/database-files.png)
 
 
 
