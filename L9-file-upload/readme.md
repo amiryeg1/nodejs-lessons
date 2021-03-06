@@ -43,12 +43,14 @@ finally, for this section, we use [minio](https://min.io/) which is cloud storag
 after uploading your files, you can get a full detail of them by clicking on the `list of minio uploaded files button`
 > note: details are shown in the command line interface
 
-![minio-files-details](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/minio-files-details.png)
+<p align="center">
+  <img src="https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/minio-files-details.png" alt="minio-files-details" />
+</p>
 
 minio uploaded files can be downloaded directly from *l9-file-upload* [bucket](https://play.minio.io:9000/minio/l9-file-upload/)
 
 or alternatively, by inputting the file's name in the URL, as example:
 
-![download-example]()
+![download-example](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/views/github/download-example.png)
 
 > downloaded files are stored in ___*/downloads*___ directory in the root folder.
