@@ -8,7 +8,7 @@
 
 ## introduction
 
-***this repository is going to be filled with several node.js projects that can lead you into becoming a back-end developer.***
+***this repository is going to be filled with several node.js projects that can lead you to become a back-end developer.***
 
 stay tuned for updates.
 
@@ -20,6 +20,7 @@ stay tuned for updates.
 ### &emsp;&emsp;&emsp;&emsp;    lesson six    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; => &nbsp;&nbsp;&nbsp; [user-authentication](https://github.com/amiryeg1/nodejs-lessons/tree/master/L6-user-authentication)
 ### &emsp;&emsp;&emsp;&emsp;    lesson seven  &nbsp;                               => &nbsp;&nbsp;&nbsp; [mongodb-database](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database)
 ### &emsp;&emsp;&emsp;&emsp;    lesson eight  &nbsp;&nbsp;                         => &nbsp;&nbsp;&nbsp; [Oauth-emailSender](https://github.com/amiryeg1/nodejs-lessons/tree/master/L8-OAuth-EmailSender)
+### &emsp;&emsp;&emsp;&emsp;    lesson eight  &nbsp;&nbsp;                         => &nbsp;&nbsp;&nbsp; [file-upload](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload)
 
 ## ***Http Server***
 a very simple example of how to create a server using HTTP built-in module that responds a string to the requested path.
@@ -51,9 +52,13 @@ in this section, we will implement the mongodb database to our app from lesson s
 click [here](https://github.com/amiryeg1/nodejs-lessons/tree/master/L7-mongodb-database/README.md) to read more...
 
 ## ***OAuth EmailSender***
-a full authentication system that uses both local and OAuth method for registering user. it also sends an email to the newly registered user 
+a full authentication system that uses both local and OAuth method for registering users. it also sends an email to the newly registered user.
 
 click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L8-OAuth-EmailSender/README.md) to read more...
 
+## ***File Upload***
+an implementation of a file uploading system that uses three different approaches for storing files in different environments.
+
+Click [here](https://github.com/amiryeg1/nodejs-lessons/blob/master/L9-file-upload/README.md) to read more...
 # license
 ***Nodejs-lessons is a free software distributed under the terms of the MIT license.***
