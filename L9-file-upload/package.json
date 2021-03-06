@@ -1,0 +1,29 @@
+{
+  "name": "l9-file-upload",
+  "version": "1.0.0",
+  "description": "a sample project on how to upload files",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "multer",
+    "minio"
+  ],
+  "author": "amir yeganeh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "minio": "^7.0.18",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}

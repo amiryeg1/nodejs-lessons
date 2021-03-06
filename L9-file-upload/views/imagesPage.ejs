@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Uploading</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background: rgb(43, 39, 39) !important;
+        }
+
+        img {
+            display: flexbox;
+            width: 1000px;
+            height: 600px;
+        }
+
+        .images {
+            display: flexbox;
+        }
+    </style>
+    <nav class="navbar fixed-top navbar-dark bg-primary">
+        <a class="navbar-brand" target="_blank" href="https://github.com/amiryeg1">github</a>
+        <h1><span class="badge badge-dark">L9-file-upload</span></h1>
+        <a class="navbar-brand" target="_blank" href="https://www.linkedin.com/in/amir-yeganeh-9592071b6/">linkedIn</a>
+    </nav>
+    <p><br /><br /><br /><br /></p>
+    <h1 class="text-center"><span class="badge badge-success">Uploaded Images</span></h1>
+    <div class="text-white">
+        <% items.forEach(function(image) { %>
+        <div class="images text-center">
+            <div>
+                <div>
+                    <h5 class="bg-secondary"><%= image.name %></h5><br>
+                </div>
+                <img src="data:image/<%=image.img.contentType%>;base64,
+                     <%=image.img.data.toString('base64')%>" />
+            </div>
+            <hr>
+        </div>
+        <% }) %>
+    </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</body>
+
+</html>

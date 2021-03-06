@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>file upload</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background: rgb(43, 39, 39) !important;
+    }
+
+    #local-storage {
+      color: aliceblue;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      display: flexbox;
+      background-color: darkslateblue;
+      font-size: large;
+      width: 33%;
+    }
+
+    #database {
+      color: aliceblue;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      display: flexbox;
+      background-color: cadetblue;
+      font-size: large;
+      width: 33%;
+    }
+
+    #server {
+      color: aliceblue;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      display: flexbox;
+      background-color: darkorange;
+      font-size: large;
+      width: 33%;
+    }
+
+    #local-storage:hover {
+      background-color: indigo;
+      font-size: x-large;
+      position: absolute;
+      color: black;
+      width: 100%;
+    }
+
+    #database:hover {
+      background-color: rgb(6, 81, 83);
+      font-size: x-large;
+      position: absolute;
+      color: black;
+      width: 100%;
+    }
+
+    #server:hover {
+      background-color: darkgoldenrod;
+      font-size: x-large;
+      position: absolute;
+      color: black;
+      width: 100%;
+    }
+
+    #forms {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #submit:hover {
+      background-color: rgb(255, 38, 0);
+    }
+  </style>
+  <nav class="navbar fixed-top navbar-dark bg-primary">
+    <a class="navbar-brand" target="_blank" href="https://github.com/amiryeg1">github<img
+        src="https://img.icons8.com/material-rounded/48/000000/github.png" /></a>
+    <h1><span class="badge badge-dark">L9-file-upload</span></h1>
+    <a class="navbar-brand" target="_blank" href="https://www.linkedin.com/in/amir-yeganeh-9592071b6/">linkedIn <img
+        src="https://img.icons8.com/android/48/000000/linkedin.png" /></a>
+  </nav>
+  <p><br /><br /><br /><br /></p>
+  <main id="main">
+    <div id="forms">
+      <section id="local-storage" class="text-center">
+        <h2>upload to local storage</h2>
+        <hr />
+        <form action="/local-storage1" enctype="multipart/form-data" method="post">
+          <p class="bg-secondary text-white">for uploading one file</p>
+          <input type="file" name="myFile" class="btn btn-info" /><br><br>
+          <input type="submit" id="submit" value="upload selected file" class="btn btn-danger btn-block" />
+        </form>
+        <hr />
+        <form action="/local-storage2" enctype="multipart/form-data" method="post">
+          <p class="bg-secondary text-white">for uploading multiple files</p>
+          <input type="file" name="myFiles" multiple class="btn btn-info" />
+          <input type="submit" id="submit" value="upload selected files" class="btn btn-danger btn-block" />
+        </form>
+      </section>
+      <hr />
+      <section id="database" class="text-center">
+        <h2>upload to database</h2>
+        <hr />
+        <form action="/database" enctype="multipart/form-data" method="post">
+          <p class="bg-secondary text-white">for uploading a picture</p>
+          <input type="file" name="myFile" class="btn btn-info" /> <br> <br>
+          <input type="submit" id="submit" value="upload selected file" class="btn btn-danger btn-block" />
+        </form>
+        <hr />
+        <div>
+          <a class="text-white btn btn-dark btn-block" href="http://localhost:3000/databasefiles" style="height:100px;">
+            <p style="font-size:larger;">list of database uploaded files</p>
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section id="server" class="text-center">
+        <h2>upload to server</h2>
+        <hr />
+        <form action="/server1" enctype="multipart/form-data" method="post">
+          <p class="bg-secondary text-white">for any file</p>
+          <input type="file" name="myFile" class="btn btn-info" /> <br><br>
+          <input type="submit" id="submit" value="upload selected file" class="btn btn-danger btn-block" />
+        </form>
+        <hr />
+        <div>
+          <a class="text-white btn btn-dark btn-block" href="http://localhost:3000/uploadlist" style="height:100px;">
+            <p style="font-size:larger;">list of minio uploaded files</p>
+          </a>
+        </div>
+      </section>
+    </div><br>
+    <div class="text-center">
+      <p class="bg-secondary text-white" style="font-size: xx-large;">
+        you can download uploaded files from minio server
+
+        <a class="btn btn-primary btn-lg" href="https://play.minio.io:9000/minio/l9-file-upload/">download</a>
+
+        <br>
+        or alternatively, you can download a file by inputing it's name in the url
+      </p>
+    </div>
+  </main>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</body>
+
+</html>
