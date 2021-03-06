@@ -3,7 +3,7 @@ in this lesson we will implement an uploading system which supports three enviro
 
 1. [Local storage](#Local-Storage)
 2. [Database storage](#Database-storage)
-3. [Server storage](#Server-Storage)
+3. [Cloud storage](#Cloud-Storage)
 
 ## How It Works
 cd inside root directory and run ``` npm install``` to install the dependencies.
@@ -34,7 +34,7 @@ we can retrieve uploaded files by clicking on the `list of database uploaded fil
 
 ![database-files]()
 
-### Server Storage
+### Cloud Storage
 finally, for this section, we use [minio](https://min.io/) which is a cloud storage for storing our files.
 
 after uploading your files, you can get a full detail of them by clicking on the `list of minio uploaded files buttom`
