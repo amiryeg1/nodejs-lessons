@@ -14,6 +14,7 @@ stay tuned for updates.
 
 ## Table Of Contents
 ### &emsp;&emsp;&emsp;&emsp;    lesson one    &nbsp;&nbsp;&nbsp;&nbsp;             => &nbsp;&nbsp;&nbsp; [simple-http-server](https://github.com/amiryeg1/nodejs-lessons/tree/master/L1-simple-http-server)
+### &emsp;&emsp;&emsp;&emsp;    lesson two    &nbsp;&nbsp;&nbsp;&nbsp;             => &nbsp;&nbsp;&nbsp; [file-extractor](https://github.com/amiryeg1/js-file-extractor)
 ### &emsp;&emsp;&emsp;&emsp;    lesson three  &nbsp;&nbsp;                         => &nbsp;&nbsp;&nbsp; [video-streaming](https://github.com/amiryeg1/nodejs-lessons/tree/master/L3-video-streaming)
 ### &emsp;&emsp;&emsp;&emsp;    lesson four   &nbsp;&nbsp;&nbsp;&nbsp;             => &nbsp;&nbsp;&nbsp; [api-testing](https://github.com/amiryeg1/nodejs-lessons/tree/master/L4-api-testing) 
 ### &emsp;&emsp;&emsp;&emsp;    lesson five   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       => &nbsp;&nbsp;&nbsp; [express-framework](https://github.com/amiryeg1/nodejs-lessons/tree/master/L5-express-framework)
